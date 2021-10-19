@@ -1,8 +1,4 @@
-//function setAction(form) {
-//  form.action = "register.html";
-//  alert(form.action);
-//  return false;
-//}
+
 function rollDice(max) {
   var dice = 0;
   var min = 1;
