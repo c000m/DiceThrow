@@ -1,0 +1,56 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 19.10.2021, 16:26:46
+    Author     : Peter Rubarth
+*/
+
+/* Block-Darstellung für HTML5-Elemente im IE8 */
+header, 
+nav, 
+footer {
+   display: block;
+}
+/***********************************************/
+ 
+body {
+    background-color: #FE9A2E;
+}
+ 
+#wrapper {
+    max-width: 960px;
+    margin: 0px auto;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    padding: 20px;
+}
+ 
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #DF7401;
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+}
+ 
+#content {
+    width: 100%;
+    height: 480px;
+    background-color:#A4A4A4;
+    float: right;
+    margin-bottom: 20px;
+      font-size: 38px;
+     font-weight: 600;
+}
+ 
+footer {
+    clear: both;
+    width: 100%;
+    height: 90px;
+    background-color: #FA5858;
+    font-size: 38px
+}
