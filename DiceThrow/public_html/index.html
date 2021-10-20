@@ -17,20 +17,57 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
-       
+        <div id="nav">
+            <a href="RisikoDiceRoll.html">Risiko Würfeln</a>
+        </div>
         <div id="wrapper">
-            <header >
+            
+            <header>
                 Rolle deine Würfel
             </header>
+            
             <div id="content">
                 Hier drücken um zu Würfeln
                 <form action="#" name="wuerfeln" >
-                    <button value="6" onclick="rollDice(6)">Würfel 1-6</button>
-                    <button value="8" onclick="rollDice(8)">Würfel 1-8</button>
-                    <button value="10" onclick="rollDice(10)">Würfel 1-10</button>
+                    <button value="6" onclick="writeResult(6)">Würfel 1-6</button>
+                    <button value="8" onclick="writeResult(8)">Würfel 1-8</button>
+                    <button value="10" onclick="writeResult(10)">Würfel 1-10</button>
                 </form>
             </div>
-            
+<!--            <div>
+                Test der Würfelfunktion
+                <script>
+                    var i = 0;
+                    document.write ("Durchlauf gestartet <br/>");
+                    while ( i < 1000){
+                        var result = rollDice (6);
+                        if (result == 6){
+                           document.write ("<p>Resultat: "+result+" Runde: "+i+"</p>");
+                       }
+                       //document.write (" "+i+" ");
+                        i++;
+                    }
+                    i = 0;
+                    while ( i < 1000){
+                        var result = rollDice (8);
+                        if (result == 8){
+                           document.write ("<p>Resultat: "+result+" Runde: "+i+"</p>");
+                       }
+                       //document.write (" "+i+" ");
+                        i++;
+                    }
+                    i = 0;
+                    while ( i < 1000){
+                        var result = rollDice (10);
+                        if (result == 10){
+                           document.write ("<p>Resultat: "+result+" Runde: "+i+"</p>");
+                       }
+                       //document.write (" "+i+" ");
+                        i++;
+                    }
+                    
+                </script>
+            </div>-->
             <footer id="result">
                 
             </footer>
