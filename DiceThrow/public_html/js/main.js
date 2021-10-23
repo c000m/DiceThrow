@@ -130,3 +130,12 @@ function formatRollDiceResult (partyName, numDice, results){
     resultsMessage = resultsMessage + "</ul>";
     return resultsMessage;
 }
+/**
+ * 
+ * @param {type} nameTextInput
+ * @param {type} val
+ * @returns {undefined}
+ */
+function updateTextInput(nameTextInput, val) {
+          document.getElementById(nameTextInput).value=val; 
+        }
